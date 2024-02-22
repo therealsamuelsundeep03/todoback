@@ -91,7 +91,7 @@ const controller = {
         port: 587,
         auth: {
           user: "samuel.sundeep03@gmail.com",
-          pass: "aevlnscrjrsxudau",
+          pass: process.env.EMAILPASS,
         },
       });
 
